@@ -1,5 +1,3 @@
-data "aws_region" "current" {}
-
 resource "aws_route53_zone" "main" {
   name = "${var.site_name}"
 }
